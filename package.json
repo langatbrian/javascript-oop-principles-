@@ -1,0 +1,20 @@
+{
+  "name": "oop-principles-practice",
+  "version": "1.0.0",
+  "description": "JavaScript OOP principles practice project demonstrating OOP principles and SOLID design",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+  "start": "webpack serve --config webpack.config.cjs --mode development",
+  "build": "webpack --config webpack.config.cjs --mode production"
+},
+  "author": "Brian Cheruiyot",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.105.4",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3"
+  }
+}
